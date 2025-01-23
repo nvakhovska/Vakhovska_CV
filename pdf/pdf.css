@@ -41,6 +41,8 @@ h1 {
   .smallText a {
     font-family: 'Source Sans Pro', sans-serif;
     text-align: justify;
+    white-space: normal;
+    word-wrap: break-word;
   }
   .smallTextL {
     font-family: 'Source Sans Pro', sans-serif;
@@ -87,14 +89,14 @@ h1 {
   
   .projectName span, 
   .jobPosition span {
-    font-size: 0.35cm;
+    font-size: 0.37cm;
   }
   
   .smallText, 
   .smallText span, 
   .smallText p, 
   .smallText a {
-    font-size: 0.35cm;
+    font-size: 0.37cm;
   }
   
   .leftPanel .smallText, 
