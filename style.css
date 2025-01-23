@@ -39,23 +39,24 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
 }
 
 #savePdfBtn {
     padding: 15px 30px;
     font-size: 18px;
-    background-color: #007bff;
+    background-color: #333;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease;
+    margin: 20px; /* Add space around the button and center it */
+    display: block; /* Make the button block-level to center it */
 }
 
 #savePdfBtn:hover {
-    background-color: #0056b3;
+    background-color: #333;
 }
 
 #cv-content {
