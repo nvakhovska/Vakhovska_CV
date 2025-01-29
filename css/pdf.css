@@ -321,3 +321,7 @@ h1 {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+.pdf-skill-category {
+  margin-left: -20px; /* Removes any left margin */
+  padding-left: 0; /* Removes any left padding */
+}

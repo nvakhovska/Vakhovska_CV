@@ -1,0 +1,63 @@
+{
+    "contact": {
+      "email": "nataliia.vakhovska@gmail.com",
+      "phone": "+14376675987",
+      "location": "Cambridge, ON, Canada",
+      "linkedin": "https://linkedin.com/in/nataliia-vakhovska-299219121"
+    },
+    "education": [
+      {
+        "degree": "Master's in Computer Science",
+        "school": "NTUU 'Igor Sikorsky Kyiv Polytechnic Institute'",
+        "years": "2016 - 2018"
+      },
+      {
+        "degree": "Bachelor's in Computer Science",
+        "school": "NTUU 'Igor Sikorsky Kyiv Polytechnic Institute'",
+        "years": "2012 - 2016"
+      },
+      {
+        "degree": "Digital Technology Development",
+        "school": "Ecole 42 Kyiv",
+        "years": "2016 - 2019"
+      }
+    ],
+    "skills": {
+      "Frontend": ["JavaScript (ES6+)", "TypeScript", "React.js", "HTML5", "CSS3"],
+      "Backend": ["Node.js", "Express.js", ".Net/C#", "RESTful APIs"],
+      "Other_languages": ["C", "Swift", "Flutter"],
+      "Databases": ["MySQL", "PostgreSQL", "MongoDB"],
+      "Devops": ["CI/CD (GitHub Actions)", "Azure"],
+      "Methodologies": ["Scrum", "Kanban"]
+    },
+    "experience": [
+      {
+        "title": ".Net Developer (RPA)",
+        "company": "Trinetix Inc",
+        "location": "Kyiv, Ukraine",
+        "years": "2018 - 2021",
+        "responsibilities": [
+            "Designed, implemented, and maintained Robotics Process Automation (RPA) solutions that helped the business seamlessly automate its critical workflows.",
+            "Took part in investigation and decision-making on the technologies for implementing solutions. Main technologies used were .NET Framework and TypeScript.",
+            "Worked on integration with various systems (e.g. Salesforce, Azure, Jira), as well as databases and external APIs, allowing services to communicate effectively with other applications and 3rd party systems.",
+            "Created automation scripts and bots using RPA tools like UiPath and BluePrism, simulating human interactions with applications (e.g. data input and screen navigation).",
+            "Implemented CI/CD pipelines using Azure DevOps to efficiently automate build and deployment processes.",
+            "Developed unit and end-to-end tests to ensure the quality of functionality and compliance with requirements.",
+            "Focused on non-functional requirements including security and performance for automation solutions.",
+            "Maintained and supported deployed automation solutions, monitoring bot performance, troubleshooting issues, and implementing updates as necessary.",
+            "Created comprehensive documentation for automation solutions, including user manuals, ensuring clarity and ease of understanding for stakeholders.",
+            "Mentored new team members, helping them ramp up, familiarizing them with RPA tools and development processes.",
+            "Facilitated knowledge transfer to cross-functional teams to ensure smooth implementation and integration with different parts of the system."
+            ]
+      },
+      {
+        "title": "Maternity Leave",
+        "years": "2021 - Present",
+        "responsibilities": [
+          "Took maternity leave to prioritize family while staying connected to the software development through self-learning and personal projects, particularly in full-stack development.",
+          "Focused on gaining expertise in frontend (React.js) and backend (Node.js) technologies."
+        ]
+      }
+    ]
+  }
+  

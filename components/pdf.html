@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nataliia Vakhovska - CV</title>
+    <link rel="stylesheet" href="../css/pdf.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script> <!-- html2pdf.js library -->
+    <script src="../js/scriptPDF.js" defer></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Julius+Sans+One&family=Open+Sans&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="../js/loadDataPDF.js" defer></script>
+  </head>
+  <body>
+    <page size="A4">
+        <header>
+            <h1>Nataliia Vakhovska</h1>
+            <p>Software Engineer</p>
+        </header>
+        <div class="container">
+            <div class="leftPanel">
+                <div class="details">
+                    <div class="item bottomLineSeparator">
+                        <h2>CONTACT</h2>
+                        <div class="pdf-contact smallTextL"></div> <!-- Contact data will be loaded here -->
+                    </div>
+                    <div class="item bottomLineSeparator">
+                        <h2>SKILLS</h2>
+                        <ul class="pdf-skills smallTextL"></ul> <!-- Skills data will be loaded here -->
+                    </div>
+                    <div class="item bottomLineSeparator">
+                        <h2>EDUCATION</h2>
+                        <div class="pdf-education-container smallTextL"></div> <!-- Education data will be loaded here -->
+                    </div>
+                </div>
+            </div>
+            <div class="rightPanel">
+                <div class="workExperience pdf-experience-container">
+                    <h2>Work experience</h2>
+                </div>
+            </div>
+        </div>
+    </page>
+    <button id="downloadBtn">Download as PDF</button> <!-- Added Save button -->
+</body>
+</html>
